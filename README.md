@@ -1,12 +1,12 @@
-若Cloudflare域名SSL为完全，则服务器执行：
+若Cloudflare域名SSL为完全则服务器执行：
 ```
 ./xtunnel -l wss://:443
 ```
-若Cloudflare域名SSL为灵活，则服务器执行：
+若Cloudflare域名SSL为灵活则服务器执行：
 ```
 ./xtunnel -l ws://80
 ```
-若服务器非以上端口，则Cloudflare回源规则要重写端口。
+非标端口Cloudflare回源规则要重写端口。
 
 客户端命令：
 ```
